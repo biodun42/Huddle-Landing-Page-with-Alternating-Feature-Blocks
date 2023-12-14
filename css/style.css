@@ -1,0 +1,324 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+:root {
+  --Pink: hsl(322, 100%, 66%);
+  --VeryPaleCyan: hsl(193, 100%, 96%);
+  --VeryDarkCyan: hsl(192, 100%, 9%);
+  --GrayishBlue: hsl(208, 11%, 55%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+.container {
+  width: 100%;
+  max-width: fit-content;
+  height: auto;
+  align-items: flex-start;
+  padding: 3rem;
+  background-image: url(../images/bg-hero-desktop.svg);
+  background-color: var(--VeryPaleCyan);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 70px; /* Adjust the gap as needed */
+}
+.top img {
+  width: 150px;
+  height: 25px;
+}
+.top button {
+  background-color: white;
+  color: black;
+  border: 1px solid white;
+  border-radius: 60px;
+  width: 150px;
+  padding: 0.5rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+.top button:hover {
+  background-color: rgb(223, 220, 220);
+}
+.Header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+.leftpart {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 7rem;
+}
+.leftpart h1 {
+  font-size: 2.6rem;
+  font-weight: 600;
+  color: var(--VeryDarkCyan);
+}
+.leftpart p {
+  font-size: 0.9rem;
+  padding: 1rem 0;
+  font-weight: 400;
+  color: var(--VeryDarkCyan);
+}
+.leftpart button {
+  background-color: var(--Pink);
+  color: white;
+  border: none;
+  border-radius: 60px;
+  padding: 1rem 5rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.leftpart button:hover {
+  background-color: hsl(322, 82%, 75%);
+}
+.rightpart img {
+  width: 100%;
+  height: 100%;
+}
+.container2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 9rem;
+}
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.box {
+  width: 87%;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+.text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: start;
+  gap: 1rem;
+  padding-left: 9rem;
+  margin-top: 5rem;
+}
+.text h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--VeryDarkCyan);
+}
+.text p {
+  font-size: 0.9rem;
+  width: 400px;
+  font-weight: 400;
+  color: var(--GrayishBlue);
+}
+.box-image img {
+  width: 100%;
+  height: 100%;
+  padding: 4rem;
+}
+.container3 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 15rem;
+  background-color: var(--VeryDarkCyan);
+}
+.footer-top h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center; /* Align text content center */
+}
+
+.footer-top {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 3rem;
+  background-color: white;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  margin: auto; /* Center the container horizontally */
+  margin-top: -8rem;
+}
+
+.footer-top button {
+  background-color: var(--Pink);
+  color: white;
+  border: 1px solid var(--Pink);
+  border-radius: 120px;
+  padding: 1rem 7rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-bottom: -1rem;
+  align-self: center; /* Center the button horizontally */
+}
+
+.footer-top button:hover {
+  background-color: hsl(322, 82%, 75%);
+}
+.All {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-top: 3rem;
+  padding: 4rem;
+}
+.huddle {
+  color: var(--GrayishBlue);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.all-footer {
+  color: var(--GrayishBlue);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2rem;
+  padding-bottom: 6rem;
+}
+.location {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.5rem;
+  padding-top: 1rem;
+}
+.fine p {
+  font-size: 1rem;
+  width: 350px;
+  padding-top: 2rem;
+}
+.fine img {
+  width: 14px;
+  height: 18px;
+}
+.cool {
+  padding-top: 2.2rem;
+  font-size: 1rem;
+}
+.phone {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.5rem;
+}
+.fine2 img {
+  width: 15px;
+  height: 16px;
+}
+.size {
+  font-size: 1rem;
+}
+.mail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.5rem;
+}
+.fine3 img {
+  width: 16px;
+  height: 13px;
+}
+.big {
+  font-size: 1rem;
+}
+.About {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: var(--GrayishBlue);
+  margin-top: 2.3rem;
+  gap: 1.5rem;
+  margin-bottom: 6.3rem;
+}
+.About p {
+  font-size: 0.9rem;
+}
+.dayo:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.Career {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: var(--GrayishBlue);
+  padding-top: 2.3rem;
+  gap: 1.5rem;
+  padding-bottom: 6.3rem;
+}
+.Career p {
+  font-size: 0.9rem;
+}
+.free {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: var(--GrayishBlue);
+  gap: 9.1rem;
+}
+.leftimg {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+.leftimg img {
+  width: 30px;
+  height: 30px;
+}
+.meee {
+  font-size: 0.8rem;
+}

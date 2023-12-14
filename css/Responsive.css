@@ -1,0 +1,800 @@
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 100%;
+    max-width: fit-content;
+    height: auto;
+    align-items: center;
+    padding: 3rem;
+    background-image: url(../images/bg-hero-desktop.svg);
+    background-color: var(--VeryPaleCyan);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px; /* Adjust the gap as needed */
+  }
+  .top img {
+    width: 110px;
+    height: 18px;
+  }
+  .top button {
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    border-radius: 60px;
+    width: 140px;
+    padding: 0.5rem;
+    font-size: 0.7rem;
+    font-weight: 600;
+  }
+  .top button:hover {
+    background-color: rgb(223, 220, 220);
+  }
+  .Header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 3rem;
+  }
+  .leftpart {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 3rem;
+    text-align: center; /* Ensure text content stays centered */
+  }
+
+  .leftpart h1 {
+    font-size: 2.7rem;
+    max-width: 500px; /* Use max-width for responsiveness */
+    font-weight: 600;
+    color: var(--VeryDarkCyan);
+    margin: 0; /* Reset margin */
+  }
+
+  .leftpart p {
+    font-size: 1.2rem;
+    max-width: 450px; /* Use max-width for responsiveness */
+    font-weight: 400;
+    color: var(--VeryDarkCyan);
+    margin: 0; /* Reset margin */
+  }
+
+  .leftpart button {
+    background-color: var(--Pink);
+    color: white;
+    border: none;
+    border-radius: 60px;
+    padding: 1rem 5rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 2.5rem;
+  }
+
+  .container2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .box {
+    width: 90%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+  }
+  .text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.4rem;
+    padding-left: 0;
+    margin-bottom: 5rem;
+    text-align: center; /* Align text center if needed */
+  }
+
+  .text h1 {
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: var(--VeryDarkCyan);
+    margin: 0; /* Reset margin */
+  }
+
+  .text p {
+    font-size: 1rem;
+    max-width: 300px; /* Use max-width for responsiveness */
+    font-weight: 400;
+    color: var(--GrayishBlue);
+    margin: 0; /* Reset margin */
+  }
+
+  .box-image {
+    width: 100%;
+    max-width: 350px; /* Adjust as needed */
+  }
+
+  .box-image img {
+    width: 100%;
+    height: 100%; /* Maintain aspect ratio */
+  }
+  .container3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 15rem;
+    background-color: var(--VeryDarkCyan);
+  }
+  .footer-top {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 3rem;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    margin-top: -8rem;
+  }
+  .footer-top button {
+    background-color: var(--Pink);
+    color: white;
+    border: 1px solid var(--Pink);
+    border-radius: 120px;
+    padding: 1rem 7rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: -1rem;
+  }
+  .footer-top button:hover {
+    background-color: hsl(322, 82%, 75%);
+  }
+  .All {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-top: 3rem;
+  }
+  .huddle {
+    color: var(--GrayishBlue);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .all-footer {
+    color: var(--GrayishBlue);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2rem;
+    padding-bottom: 6rem;
+  }
+  .location {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1.5rem;
+    padding-top: 1rem;
+  }
+  .fine p {
+    font-size: 1rem;
+    width: 350px;
+    padding-top: 2rem;
+  }
+  .fine img {
+    width: 14px;
+    height: 18px;
+  }
+  .cool {
+    padding-top: 2.2rem;
+    font-size: 1rem;
+  }
+  .phone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1.5rem;
+  }
+  .fine2 img {
+    width: 15px;
+    height: 16px;
+  }
+  .size {
+    font-size: 1rem;
+  }
+  .mail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1.5rem;
+  }
+  .fine3 img {
+    width: 16px;
+    height: 13px;
+  }
+  .big {
+    font-size: 1rem;
+  }
+  .About {
+    width: 200px;
+    max-width: 100px;
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: var(--GrayishBlue);
+    margin-top: 2.3rem;
+    gap: 1.5rem;
+    margin-bottom: 6.1rem;
+  }
+  .About p {
+    font-size: 0.9rem;
+    flex-wrap: nowrap;
+  }
+  .dayo:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .Career {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: var(--GrayishBlue);
+    padding-top: 2.3rem;
+    gap: 1.5rem;
+    padding-bottom: 7rem;
+  }
+  .Career p {
+    font-size: 0.9rem;
+  }
+  .free {
+    width: 300px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: var(--GrayishBlue);
+    gap: 6.5rem;
+  }
+  .leftimg {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .leftimg img {
+    width: 25px;
+    height: 25px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+    max-width: fit-content;
+    height: auto;
+    align-items: center;
+    padding: 3rem;
+    background-image: url(../images/bg-hero-mobile.svg);
+    background-color: var(--VeryPaleCyan);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .top {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 9rem;
+  }
+  .top img {
+    width: 110px;
+    height: 18px;
+  }
+  .top button {
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    border-radius: 60px;
+    width: 140px;
+    padding: 0.5rem;
+    font-size: 0.7rem;
+    font-weight: 600;
+  }
+  .top button:hover {
+    background-color: rgb(223, 220, 220);
+  }
+  .Header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 3rem;
+  }
+  .leftpart {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 0rem;
+  }
+  .leftpart h1 {
+    font-size: 2.2rem;
+    width: 400px;
+    font-weight: 600;
+    color: var(--VeryDarkCyan);
+  }
+  .leftpart p {
+    font-size: 0.9rem;
+    width: 350px;
+    font-weight: 400;
+    color: var(--VeryDarkCyan);
+  }
+  .leftpart button {
+    background-color: var(--Pink);
+    color: white;
+    border: none;
+    border-radius: 60px;
+    padding: 1rem 5rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 2.5rem;
+  }
+  .box {
+    width: 90%;
+    height: 700px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+  }
+  .text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.4rem;
+    padding-left: 0rem;
+    margin-bottom: 5rem;
+  }
+  .text h1 {
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: var(--VeryDarkCyan);
+  }
+  .text p {
+    font-size: 1rem;
+    width: 300px;
+    font-weight: 400;
+    color: var(--GrayishBlue);
+  }
+  .box-image img {
+    width: 100%;
+    height: 100%;
+  }
+  .container3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--VeryDarkCyan);
+  }
+  .footer-top {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 3rem;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    margin-top: -8rem;
+  }
+  .footer-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Align text content center */
+  }
+  .footer-top button {
+    background-color: var(--Pink);
+    color: white;
+    border: 1px solid var(--Pink);
+    border-radius: 120px;
+    padding: 1rem 7rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: -1rem;
+    align-self: center; /* Center the button horizontally */
+  }
+
+  .footer-top button:hover {
+    background-color: hsl(322, 82%, 75%);
+  }
+  .All {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .huddle {
+    color: var(--GrayishBlue);
+    display: flex;
+    flex-direction: flex-start;
+    align-items: start;
+    justify-content: center;
+  }
+  .all-footer {
+    color: var(--GrayishBlue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .location {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1.5rem;
+    padding-top: 1rem;
+  }
+  .fine p {
+    font-size: 1rem;
+    width: 300px;
+    padding-top: 2rem;
+  }
+  .fine img {
+    width: 14px;
+    height: 18px;
+  }
+  .cool {
+    padding-top: 2.2rem;
+    font-size: 1rem;
+  }
+  .phone {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1.5rem;
+  }
+  .fine2 img {
+    width: 15px;
+    height: 16px;
+  }
+  .size {
+    font-size: 1rem;
+  }
+  .mail {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1.5rem;
+  }
+  .fine3 img {
+    width: 16px;
+    height: 13px;
+  }
+  .big {
+    font-size: 1rem;
+  }
+  .About {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: var(--GrayishBlue);
+    gap: 0.5rem;
+  }
+  .About p {
+    font-size: 1rem;
+  }
+  .dayo:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .Career {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: var(--GrayishBlue);
+    gap: 0.5rem;
+  }
+  .Career p {
+    font-size: 1rem;
+  }
+  .free {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--GrayishBlue);
+  }
+  .leftimg {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .leftimg img {
+    width: 30px;
+    height: 30px;
+  }
+  .meee {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+  }
+}
+@media screen and (max-width: 425px) {
+  .container {
+    width: 100%;
+    max-width: fit-content;
+    height: auto;
+    align-items: center;
+    padding: 3rem;
+    background-image: url(../images/bg-hero-mobile.svg);
+    background-color: var(--VeryPaleCyan);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .top {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+  }
+  .top img {
+    width: 110px;
+    height: 18px;
+  }
+  .top button {
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    border-radius: 50px;
+    width: 190px;
+    padding: 0.5rem 1rem;
+    font-size: 0.7rem;
+    font-weight: 600;
+  }
+  .top button:hover {
+    background-color: rgb(223, 220, 220);
+  }
+  .Header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 3rem;
+  }
+  .leftpart {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 3rem;
+    text-align: center; /* Align text content center */
+  }
+
+  .leftpart h1 {
+    font-size: 1.5rem;
+    max-width: 300px; /* Use max-width for responsiveness */
+    font-weight: 600;
+    color: var(--VeryDarkCyan);
+    margin: 0; /* Reset margin */
+  }
+
+  .leftpart p {
+    font-size: 0.7rem;
+    max-width: 250px; /* Use max-width for responsiveness */
+    font-weight: 400;
+    color: var(--VeryDarkCyan);
+    margin: 0; /* Reset margin */
+  }
+
+  .leftpart button {
+    background-color: var(--Pink);
+    color: white;
+    border: none;
+    border-radius: 60px;
+    padding: 1rem 3rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 2.5rem;
+    align-self: center; /* Center the button horizontally */
+  }
+  .container2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .box {
+    width: 70%;
+    height: 700px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+  }
+  .text p {
+    width: 200px;
+    font-size: 1rem;
+  }
+
+  .container3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--VeryDarkCyan);
+  }
+  .box{
+    width: 80%;
+  }
+  .footer-top {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 3rem;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    margin-top: -8rem;
+  }
+  .footer-top h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+  }
+  .footer-top button {
+    background-color: var(--Pink);
+    color: white;
+    border: 1px solid var(--Pink);
+    border-radius: 120px;
+    padding: 1rem 2rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: -1rem;
+  }
+  .footer-top button:hover {
+    background-color: hsl(322, 82%, 75%);
+  }
+  .All {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .huddle {
+    color: var(--GrayishBlue);
+    display: flex;
+    flex-direction: flex-start;
+    align-items: start;
+    justify-content: center;
+  }
+  .all-footer {
+    color: var(--GrayishBlue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .location {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1.5rem;
+    padding-top: 1rem;
+  }
+  .fine p {
+    font-size: 0.7rem;
+    width: 200px;
+    padding-top: 2rem;
+  }
+  .Career {
+    width: 100%;
+  }
+  
+  .free {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: var(--GrayishBlue);
+  }
+  
+  .leftimg {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .leftimg img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .meee {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 0.8rem;
+    width: 200px;
+  }
+}  
