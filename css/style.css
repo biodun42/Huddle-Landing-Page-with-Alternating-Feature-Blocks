@@ -55,11 +55,10 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
-  gap: 1rem;
   margin-top: 3rem;
 }
 .leftpart {
-  width: 50%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -67,17 +66,22 @@
   gap: 1rem;
   margin-top: 7rem;
 }
+
 .leftpart h1 {
   font-size: 2.6rem;
   font-weight: 600;
   color: var(--VeryDarkCyan);
+  text-align: left; /* Align heading text to the left */
 }
+
 .leftpart p {
   font-size: 0.9rem;
   padding: 1rem 0;
   font-weight: 400;
   color: var(--VeryDarkCyan);
+  text-align: left; /* Align paragraph text to the left */
 }
+
 .leftpart button {
   background-color: var(--Pink);
   color: white;
@@ -86,13 +90,15 @@
   padding: 1rem 5rem;
   font-size: 0.8rem;
   font-weight: 600;
+  align-self: flex-start; /* Align button to the left */
 }
+
 .leftpart button:hover {
   background-color: hsl(322, 82%, 75%);
 }
 .rightpart img {
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 .container2 {
   width: 100%;

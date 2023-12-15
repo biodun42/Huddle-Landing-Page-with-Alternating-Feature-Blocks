@@ -37,7 +37,7 @@
   .Header {
     width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 1rem;
@@ -51,20 +51,20 @@
     justify-content: center;
     gap: 1rem;
     margin-top: 3rem;
-    text-align: center; /* Ensure text content stays centered */
+    text-align: left; /* Ensure text content stays centered */
   }
 
   .leftpart h1 {
     font-size: 2.7rem;
-    max-width: 500px; /* Use max-width for responsiveness */
+    width: 500px; /* Use max-width for responsiveness */
     font-weight: 600;
     color: var(--VeryDarkCyan);
     margin: 0; /* Reset margin */
   }
 
   .leftpart p {
-    font-size: 1.2rem;
-    max-width: 450px; /* Use max-width for responsiveness */
+    font-size: 1rem;
+    max-width: 500px; /* Use max-width for responsiveness */
     font-weight: 400;
     color: var(--VeryDarkCyan);
     margin: 0; /* Reset margin */
@@ -79,8 +79,11 @@
     font-size: 0.8rem;
     font-weight: 600;
     margin-bottom: 2.5rem;
-  }
-
+    /* Added property to align button to the left */
+    display: block;
+    margin-right: auto;
+    margin-left: 0;
+}
   .container2 {
     width: 100%;
     display: flex;
@@ -246,17 +249,15 @@
     font-size: 1rem;
   }
   .About {
-    width: 200px;
-    max-width: 100px;
-    flex-wrap: nowrap;
+    width: 300px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
     color: var(--GrayishBlue);
-    margin-top: 2.3rem;
+    margin-top: 2rem;
     gap: 1.5rem;
-    margin-bottom: 6.1rem;
+    margin-bottom: 5.5rem;
   }
   .About p {
     font-size: 0.9rem;
@@ -267,7 +268,7 @@
     cursor: pointer;
   }
   .Career {
-    width: 200px;
+    width: 300px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -319,7 +320,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 9rem;
+    gap: 23rem;
   }
   .top img {
     width: 110px;
@@ -357,14 +358,16 @@
     margin-top: 0rem;
   }
   .leftpart h1 {
-    font-size: 2.2rem;
-    width: 400px;
+    font-size: 2.5rem;
+    text-align: center;
+    width: 500px;
     font-weight: 600;
     color: var(--VeryDarkCyan);
   }
   .leftpart p {
-    font-size: 0.9rem;
-    width: 350px;
+    font-size: 1.3rem;
+    text-align: center;
+    width: 495px;
     font-weight: 400;
     color: var(--VeryDarkCyan);
   }
@@ -376,8 +379,9 @@
     padding: 1rem 5rem;
     font-size: 0.8rem;
     font-weight: 600;
-    margin-bottom: 2.5rem;
-  }
+    margin: 0 auto 2.5rem; /* Adjusted margin for bottom only */
+    display: block; /* Ensures the button takes full width */
+  }  
   .box {
     width: 90%;
     height: 700px;
@@ -410,8 +414,8 @@
     color: var(--GrayishBlue);
   }
   .box-image img {
-    width: 100%;
-    height: 100%;
+    width: 400px;
+    height: 350px;
   }
   .container3 {
     width: 100%;
@@ -458,7 +462,6 @@
   }
   .All {
     width: 100%;
-    height: auto;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -526,59 +529,48 @@
   .big {
     font-size: 1rem;
   }
-  .About {
-    width: 300px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    color: var(--GrayishBlue);
-    gap: 0.5rem;
-  }
-  .About p {
-    font-size: 1rem;
-  }
-  .dayo:hover {
-    text-decoration: underline;
-    cursor: pointer;
-  }
-  .Career {
-    width: 300px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    color: var(--GrayishBlue);
-    gap: 0.5rem;
-  }
-  .Career p {
-    font-size: 1rem;
-  }
-  .free {
-    width: 300px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: var(--GrayishBlue);
-  }
-  .leftimg {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-  }
-  .leftimg img {
-    width: 30px;
-    height: 30px;
-  }
-  .meee {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 0.9rem;
-  }
+  .About,
+.Career,
+.free {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Changed alignment to left */
+  justify-content: flex-start;
+  color: var(--GrayishBlue);  /* Reduced the gap between elements */
+  gap: 0.1rem;
+}
+
+.About p,
+.Career p {
+  font-size: 1rem;
+}
+
+.dayo:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.leftimg {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start; /* Changed justification to left */
+  margin-top: 0.25    rem; /* Reduced margin for separation */
+}
+
+.leftimg img {
+  width: 30px;
+  height: 30px;
+}
+.meee {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Changed justification to left */
+  font-size: 0.9rem;
+  margin-top: 1rem; /* Reduced margin for separation */
+}
 }
 @media screen and (max-width: 425px) {
   .container {
@@ -695,7 +687,7 @@
     justify-content: center;
     background-color: var(--VeryDarkCyan);
   }
-  .box{
+  .box {
     width: 80%;
   }
   .footer-top {
@@ -767,7 +759,7 @@
   .Career {
     width: 100%;
   }
-  
+
   .free {
     width: 250px;
     display: flex;
@@ -776,7 +768,7 @@
     justify-content: flex-start;
     color: var(--GrayishBlue);
   }
-  
+
   .leftimg {
     width: 100%;
     display: flex;
@@ -784,12 +776,12 @@
     align-items: center;
     justify-content: flex-start;
   }
-  
+
   .leftimg img {
     width: 30px;
     height: 30px;
   }
-  
+
   .meee {
     display: flex;
     align-items: center;
@@ -797,4 +789,4 @@
     font-size: 0.8rem;
     width: 200px;
   }
-}  
+}
