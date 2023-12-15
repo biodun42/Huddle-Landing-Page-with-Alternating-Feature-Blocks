@@ -249,7 +249,6 @@
     font-size: 1rem;
   }
   .About {
-    width: 300px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -261,14 +260,12 @@
   }
   .About p {
     font-size: 0.9rem;
-    flex-wrap: nowrap;
   }
   .dayo:hover {
     text-decoration: underline;
     cursor: pointer;
   }
   .Career {
-    width: 300px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -282,7 +279,6 @@
     font-size: 0.9rem;
   }
   .free {
-    width: 300px;
     display: flex;
     flex-direction: column-reverse;
     align-items: flex-start;
@@ -532,7 +528,6 @@
   .About,
 .Career,
 .free {
-  width: 300px;
   display: flex;
   flex-direction: column;
   align-items: flex-start; /* Changed alignment to left */
@@ -761,8 +756,7 @@
   }
 
   .free {
-    width: 250px;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
